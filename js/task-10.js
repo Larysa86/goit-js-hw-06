@@ -38,9 +38,8 @@ function createBoxes() {
     width += 10;
     height += 10;
     newDiv += `<div style="width: ${width}px; height: ${height}px; background-color: ${getRandomHexColor()}"></div>`;
-    boxesRef.innerHTML = newDiv;
   }
-    
+   boxesRef.innerHTML = newDiv; 
 }
 
 function destroyBoxes() {
